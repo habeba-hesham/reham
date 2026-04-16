@@ -16,7 +16,7 @@ const songs: Song[] = [
   { title: 'Track 8', url: 'https://open.spotify.com/track/0AljsXDnXma3TRIEwaAa5o' },
   { title: 'Track 9', url: 'https://open.spotify.com/track/1Gvh0RpX1LUEshIdm5tcQk' },
   { title: 'Track 10', url: 'https://open.spotify.com/track/6ObNEe2SWfuJ0NMp1xC6uX' },
-  { title: 'Track 11', url: 'https://open.spotify.com/artist/7MGFOSQK8O3im8YslR3DLB' },
+  { title: 'Track 11', url: 'https://open.spotify.com/track/6u5F7iulJgzOswzPix4riq' },
 ];
 
 export default function Playlist() {
