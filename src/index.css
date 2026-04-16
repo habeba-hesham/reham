@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ticket-holes::before,
+.ticket-holes::after {
+  content: '';
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: #fff0f3;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ticket-holes::before {
+  left: -14px;
+}
+.ticket-holes::after {
+  right: -14px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.petal-bg {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(255, 182, 193, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 154, 181, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(255, 240, 243, 0.5) 0%, transparent 70%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 197, 213, 0.45);
+}
+
+.amiri-text {
+  font-family: 'Amiri', serif;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
