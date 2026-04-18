@@ -6,17 +6,17 @@ interface Song {
 }
 
 const songs: Song[] = [
-  { title: 'Track 1', url: 'https://open.spotify.com/track/10UqRIs3ADAMYBsLN5NZTW' },
-  { title: 'Track 2', url: 'https://open.spotify.com/track/2TKRLhUZxSQgIuDVrtfx9a' },
-  { title: 'Track 3', url: 'https://open.spotify.com/track/0ZJ2vlWyCoMA52VbECDMEL' },
-  { title: 'Track 4', url: 'https://open.spotify.com/track/1Z2EZuhLqHvLXlhYs2McXy' },
-  { title: 'Track 5', url: 'https://open.spotify.com/track/7bJUDeSABh3Ej1EFnafDGL' },
-  { title: 'Track 6', url: 'https://open.spotify.com/track/4hDWCmaD5nZBAtaTYfWVlO' },
-  { title: 'Track 7', url: 'https://open.spotify.com/track/5OcVGQFVNvHt25O5ko22tF' },
-  { title: 'Track 8', url: 'https://open.spotify.com/track/0AljsXDnXma3TRIEwaAa5o' },
-  { title: 'Track 9', url: 'https://open.spotify.com/track/1Gvh0RpX1LUEshIdm5tcQk' },
-  { title: 'Track 10', url: 'https://open.spotify.com/track/6ObNEe2SWfuJ0NMp1xC6uX' },
-  { title: 'Track 11', url: 'https://open.spotify.com/track/6u5F7iulJgzOswzPix4riq' },
+  { title: 'كل يوم احلي يوم', url: 'https://open.spotify.com/track/10UqRIs3ADAMYBsLN5NZTW' },
+  { title: 'سوا سوا', url: 'https://open.spotify.com/track/2TKRLhUZxSQgIuDVrtfx9a' },
+  { title: 'صحبي يا صحبي', url: 'https://open.spotify.com/track/0ZJ2vlWyCoMA52VbECDMEL' },
+  { title: 'في حته تانيه', url: 'https://open.spotify.com/track/1Z2EZuhLqHvLXlhYs2McXy' },
+  { title: 'صاحبي', url: 'https://open.spotify.com/track/7bJUDeSABh3Ej1EFnafDGL' },
+  { title: 'يدوم الامان', url: 'https://open.spotify.com/track/4hDWCmaD5nZBAtaTYfWVlO' },
+  { title: 'حبيبي وابن حبيبي', url: 'https://open.spotify.com/track/5OcVGQFVNvHt25O5ko22tF' },
+  { title: 'طب صاحبي يا صاحبي معاك علي الموت', url: 'https://open.spotify.com/track/0AljsXDnXma3TRIEwaAa5o' },
+  { title: 'الخير دايره', url: 'https://open.spotify.com/track/1Gvh0RpX1LUEshIdm5tcQk' },
+  { title: 'اللي بينا', url: 'https://open.spotify.com/track/6ObNEe2SWfuJ0NMp1xC6uX' },
+  { title: 'هنا مصر هفضل كل مره اجيلك', url: 'https://open.spotify.com/track/6u5F7iulJgzOswzPix4riq' },
 ];
 
 export default function Playlist() {
